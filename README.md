@@ -5,37 +5,7 @@ This project implements a DDoS Detection System using Machine Learning models to
 2. Model training and evaluation for Random Forest, Logistic Regression, and Neural Network classifiers
 3. Accuracy comparison across models and saving the best-performing model
 4. A simple web-based traffic monitoring dashboard (HTML, CSS, JavaScript)
-
-DDOS/
-├── app/
-│   ├── static/                # Static assets (CSS, JS, images)
-│   │   ├── style.css
-│   │   ├── script.js
-│   │   ├── logo.jpg
-│   │   └── ... (other assets)
-│   ├── templates/             # HTML templates
-│   │   ├── index.html
-│   │   ├── info.html
-│   │   ├── mitigation.html
-│   │   └── visual.html
-│   └── app.py                 # Flask backend for the dashboard
-│
-├── data/
-│   └── data.csv               # Dataset for model training
-│
-├── model/
-│   ├── best_model.pkl         # Saved best model
-│   ├── scaler.pkl             # Saved scaler for data preprocessing
-│
-├── Python book/
-│   ├── ddos.ipynb             # Jupyter Notebook for analysis
-│   ├── train_model.py         # Model training script
-│   └── traffic_simulator.py   # Traffic simulation script
-│
-├── requirements.txt           # List of project dependencies
-└── README.md                  # Project documentation
-
-
+   
 Features
 1. Machine Learning Models:
 2. Random Forest
@@ -51,25 +21,21 @@ Dataset:
 4. Best Model Saving:
 5. Automatically saves the best model as a .pkl file
 
-
 Prerequisites
 To run this project, ensure you have the following installed:
-
-Python 3.8 or higher
-Git
-Pip (Python package manager)
-Virtual Environment (recommended)
+1. Python 3.8 or higher
+2. Git
+3. Pip (Python package manager)
+4. Virtual Environment (recommended)
 
 
 How to Clone the Repository
-Open your terminal or command prompt.
-
-Navigate to the directory where you want to clone the project.
-
-Run the following command:
-Copy code
-git clone https://github.com/Saifk05/ML-Powered-Real-Time-DDoS-Detection-and-Classification.git
-cd DDOS
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to clone the project.
+3. Run the following command:
+4. Copy code
+5. git clone https://github.com/Saifk05/ML-Powered-Real-Time-DDoS-Detection-and-Classification.git
+6. cd DDOS
 
 
 Setting Up the Project
@@ -106,15 +72,14 @@ python Python\ book/train_model.py
 Run the Web Dashboard: Navigate to the app directory and start the Flask server:
 cd app
 python app.py
-
 Open the Dashboard: Open your browser and go to: http://127.0.0.1:5000
 
 Testing and Outputs
 The terminal will display model accuracy:
 
-Random Forest Accuracy: 0.90
-Logistic Regression Accuracy: 0.87
-Neural Network Accuracy: 0.85
+1. Random Forest Accuracy: 0.90
+2. Logistic Regression Accuracy: 0.87
+3. Neural Network Accuracy: 0.85
 
 Best Model: Random Forest with Accuracy: 0.90
 
